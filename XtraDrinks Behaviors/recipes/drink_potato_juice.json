@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "csxdrinks:drink_potato_juice"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "csxdrinks:juicer"
+			},
+			{
+				"item": "minecraft:potato"
+			},
+			{
+				"item": "csxdrinks:drink_glassjuice"
+			}
+		],
+		"result": [
+			{
+				"item": "csxdrinks:drink_potatojuice"
+			}
+		]
+	}
+}

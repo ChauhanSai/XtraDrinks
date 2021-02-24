@@ -1,0 +1,14 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:coconut_dehydrated",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": "coconut_dehydrated",
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

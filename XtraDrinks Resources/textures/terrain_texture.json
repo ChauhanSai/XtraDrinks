@@ -1,0 +1,54 @@
+//bridge-file-version: #11
+{
+	"resource_pack_name": "xtradrinks",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"dehydrator": {
+			"textures": "textures/blocks/dehydrator"
+		},
+		"ldehydrator": {
+			"textures": "textures/blocks/ldehydrator"
+		},
+		"greenman_top": {
+			"textures": "textures/blocks/greenman_spawn_top"
+		},
+		"greenman_bottom": {
+			"textures": "textures/blocks/greenman_spawn_bottom"
+		},
+		"greenman_front": {
+			"textures": "textures/blocks/greenman_spawn_front"
+		},
+		"greenman_back": {
+			"textures": "textures/blocks/greenman_spawn_back"
+		},
+		"greenman_right": {
+			"textures": "textures/blocks/greenman_spawn_right"
+		},
+		"greenman_left": {
+			"textures": "textures/blocks/greenman_spawn_left"
+		},
+		"orange_hanging": {
+			"textures": "textures/blocks/orange_hanging"
+		},
+		"coconut_hanging": {
+			"textures": "textures/blocks/coconut_hanging"
+		},
+		"pine_hanging": {
+			"textures": "textures/blocks/pine_hanging"
+		},
+		"clear": {
+			"textures": "textures/blocks/clear"
+		},
+		"fizzium_block": {
+			"textures": "textures/minerals/fizzium_block"
+		},
+		"juicetanium_block": {
+			"textures": "textures/minerals/jucetanium_block"
+		},
+		"liquadium_block": {
+			"textures": "textures/minerals/liquadium_block"
+		}
+	}
+}

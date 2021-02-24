@@ -1,0 +1,36 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "csxdrinks:cinnamon"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "csxdrinks:juicer",
+				"data": 0
+			},
+			"B": {
+				"item": "csxdrinks:pine"
+			}
+		},
+		"result": [
+			{
+				"item": "csxdrinks:cinnamon",
+				"count": 3
+			},
+			{
+				"item": "csxdrinks:juicer",
+				"count": 1,
+				"data": 0
+			}
+		]
+	}
+}

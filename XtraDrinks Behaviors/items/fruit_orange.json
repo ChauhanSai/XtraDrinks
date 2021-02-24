@@ -1,0 +1,20 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:orange",
+			"is_experimental":false,
+			"aliases": [
+				"csxdrinks:tropical:4"
+			]
+		},
+		"components": {
+			"minecraft:use_duration": 32,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "low"
+			}
+		}
+	}
+}

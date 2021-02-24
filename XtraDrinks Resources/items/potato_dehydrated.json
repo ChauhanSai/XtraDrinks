@@ -1,0 +1,14 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:potato_dehydrated",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": "potato_dehydrated",
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

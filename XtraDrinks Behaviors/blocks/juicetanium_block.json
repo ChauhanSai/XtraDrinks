@@ -1,0 +1,19 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "csxdrinks:juicetanium_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 3,
+			"minecraft:map_color": "#4cc93e",
+			"minecraft:friction": 0.6,
+			"minecraft:explosion_resistance": 24,
+			"tag:minecraft:metal": {},
+			"tag:minecraft:diamond_pick_diggable": {},
+			"tag:minecraft:iron_pick_diggable": {}
+		},
+		"events": {}
+	}
+}

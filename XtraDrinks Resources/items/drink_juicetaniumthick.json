@@ -1,0 +1,14 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:drink_juicetaniumthick",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "drink juicetanium thick",
+			"minecraft:use_animation": "drink"
+		}
+	}
+}

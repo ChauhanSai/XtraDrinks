@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "csxdrinks:drink_fizzium_thick"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "csxdrinks:juicer"
+			},
+			{
+				"item": "csxdrinks:fizzium_ingot"
+			},
+			{
+				"item": "csxdrinks:citric_acid"
+			},
+			{
+				"item": "csxdrinks:drink_glassthick"
+			}
+		],
+		"result": [
+			{
+				"item": "csxdrinks:drink_fizziumthick"
+			}
+		]
+	}
+}

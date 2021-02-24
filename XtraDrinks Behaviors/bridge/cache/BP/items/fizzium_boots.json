@@ -1,0 +1,245 @@
+{
+	"file_path": "C:\\Users\\chauh\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\XtraDrinks\\items\\fizzium_boots.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "cc184594_d938_4011_9b3c_0a59eb3ba49e",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "csxdrinks:fizzium_boots",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:stacked_by_data": true,
+							"minecraft:armor": {
+								"protection": 5,
+								"texture_type": "diamond"
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.feet"
+							},
+							"minecraft:icon": {
+								"texture": "fizzium_boots"
+							},
+							"minecraft:durability": {
+								"max_durability": 3600
+							},
+							"minecraft:enchantable": {
+								"slot": "armor_feet",
+								"value": 10
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"csxdrinks:fizzium"
+										],
+										"repair_amount": 5
+									}
+								]
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.boots"
+							},
+							"minecraft:display_name": {
+								"value": "Fizzium Boots"
+							}
+						},
+						"events": {
+							"csxdrinks:equipboots": {
+								"run_command": {
+									"command": [
+										"replaceitem entity @p slot.armor.feet 0 csxdrinks:fizzium_boots",
+										"replaceitem entity @p slot.weapon.mainhand 0 air"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "csxdrinks:fizzium_boots",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "csxdrinks:fizzium_boots",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:armor": {
+									"protection": 5,
+									"texture_type": "diamond"
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.feet"
+								},
+								"minecraft:icon": {
+									"texture": "fizzium_boots"
+								},
+								"minecraft:durability": {
+									"max_durability": 3600
+								},
+								"minecraft:enchantable": {
+									"slot": "armor_feet",
+									"value": 10
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"csxdrinks:fizzium"
+											],
+											"repair_amount": 5
+										}
+									]
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.boots"
+								},
+								"minecraft:display_name": {
+									"value": "Fizzium Boots"
+								}
+							},
+							"events": {
+								"csxdrinks:equipboots": {
+									"run_command": {
+										"command": [
+											"replaceitem entity @p slot.armor.feet 0 csxdrinks:fizzium_boots",
+											"replaceitem entity @p slot.weapon.mainhand 0 air"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:stacked_by_data": true,
+							"minecraft:armor": {
+								"protection": 5,
+								"texture_type": "diamond"
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.feet"
+							},
+							"minecraft:icon": {
+								"texture": "fizzium_boots"
+							},
+							"minecraft:durability": {
+								"max_durability": 3600
+							},
+							"minecraft:enchantable": {
+								"slot": "armor_feet",
+								"value": 10
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"csxdrinks:fizzium"
+										],
+										"repair_amount": 5
+									}
+								]
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.boots"
+							},
+							"minecraft:display_name": {
+								"value": "Fizzium Boots"
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "csxdrinks:fizzium_boots",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:armor": {
+									"protection": 5,
+									"texture_type": "diamond"
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.feet"
+								},
+								"minecraft:icon": {
+									"texture": "fizzium_boots"
+								},
+								"minecraft:durability": {
+									"max_durability": 3600
+								},
+								"minecraft:enchantable": {
+									"slot": "armor_feet",
+									"value": 10
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"csxdrinks:fizzium"
+											],
+											"repair_amount": 5
+										}
+									]
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.boots"
+								},
+								"minecraft:display_name": {
+									"value": "Fizzium Boots"
+								}
+							},
+							"events": {
+								"csxdrinks:equipboots": {
+									"run_command": {
+										"command": [
+											"replaceitem entity @p slot.armor.feet 0 csxdrinks:fizzium_boots",
+											"replaceitem entity @p slot.weapon.mainhand 0 air"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"csxdrinks:equipboots": {
+								"run_command": {
+									"command": [
+										"replaceitem entity @p slot.armor.feet 0 csxdrinks:fizzium_boots",
+										"replaceitem entity @p slot.weapon.mainhand 0 air"
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

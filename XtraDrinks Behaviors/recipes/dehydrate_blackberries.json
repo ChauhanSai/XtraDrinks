@@ -1,0 +1,22 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "csxdrinks:dehydrate_blackberries"
+		},
+		"tags": [
+			"dehydrator"
+		],
+		"ingredients": [
+			{
+				"item": "csxdrinks:blackberries"
+			}
+		],
+		"result": [
+			{
+				"item": "csxdrinks:blackberries_dehydrated"
+			}
+		]
+	}
+}

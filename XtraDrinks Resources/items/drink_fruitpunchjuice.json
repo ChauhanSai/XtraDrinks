@@ -1,0 +1,14 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:drink_fruitpunchjuice",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "drink fruitpunch juice",
+			"minecraft:use_animation": "drink"
+		}
+	}
+}

@@ -1,0 +1,117 @@
+//bridge-file-version: #2
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 5,
+				"max": 8
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:dirt"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:apple_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:beetroot_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "minecraft:apple"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:blackberries"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:blackberries_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:carrot_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "minecraft:carrot"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:coconut"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:coconut_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:cranberries"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:cranberries_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:grapes"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:grapes_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:lemon"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:lemon_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:lime"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:lime_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:orange"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:orange_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:pineapple"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:pineapple_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:pomegranate"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:pomegranate_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "csxdrinks:potato_dehydrated"
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potato"
+				}
+			]
+		}
+	]
+}

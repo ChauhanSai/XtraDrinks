@@ -1,0 +1,21 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:block_liquadium_block"
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "csxdrinks:liquadium_block"
+			},
+			"minecraft:icon": {
+				"texture": "block_liquadium"
+			},
+			"minecraft:display_name": {
+				"value": "(Creative Only) Block Placer Liquadium Block"
+			}
+		},
+		"events": {}
+	}
+}

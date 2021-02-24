@@ -1,0 +1,23 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "csxdrinks:juicetanium_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "csxdrinks:juicetanium_block"
+			}
+		},
+		"result": {
+			"item": "csxdrinks:juicetanium_ingot"
+		}
+	}
+}

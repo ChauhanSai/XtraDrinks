@@ -1,0 +1,51 @@
+//bridge-file-version: #15
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"csxdrinks:dehydrator": {
+		"sound": "brick",
+		"textures": "dehydrator"
+	},
+	"csxdrinks:ldehydrator": {
+		"sound": "brick",
+		"textures": "ldehydrator"
+	},
+	"csxdrinks:greenman_lure": {
+		"textures": {
+			"up": "greenman_top",
+			"down": "greenman_bottom",
+			"north": "greenman_front",
+			"south": "greenman_back",
+			"west": "greenman_right",
+			"east": "greenman_left"
+		},
+		"sound": "glass"
+	},
+	"csxdrinks:hanging_orange": {
+		"sound": "sweet_berry_bush",
+		"textures": "orange_hanging"
+	},
+	"csxdrinks:hanging_pine": {
+		"sound": "sweet_berry_bush",
+		"textures": "pine_hanging"
+	},
+	"csxdrinks:hanging_coconut": {
+		"sound": "sweet_berry_bush",
+		"textures": "coconut_hanging"
+	},
+	"csxdrinks:fizzium_block": {
+		"sound": "metal",
+		"textures": "fizzium_block"
+	},
+	"csxdrinks:juicetanium_block": {
+		"sound": "metal",
+		"textures": "juicetanium_block"
+	},
+	"csxdrinks:liquadium_block": {
+		"sound": "metal",
+		"textures": "liquadium_block"
+	}
+}

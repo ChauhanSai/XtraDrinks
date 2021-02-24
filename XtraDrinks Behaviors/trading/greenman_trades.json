@@ -1,0 +1,378 @@
+//bridge-file-version: #3
+{
+	"tiers": [
+		{
+			"groups": [
+				{
+					"num_to_select": 7,
+					"trades": [
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:apple_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:beetroot_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:apple"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:beetroot"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:blackberries"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:blackberries_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:carrot_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:carrot"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:coconut"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:coconut_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:cranberries"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:cranberries_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:grapes"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:grapes_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:lemon"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:lemon_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:lime"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:lime_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:orange"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:orange_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:pineapple"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:pineapple_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:pomegranate"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:pomegranate_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "csxdrinks:potato_dehydrated"
+								}
+							]
+						},
+						{
+							"max_uses": 1,
+							"wants": [
+								{
+									"item": "minecraft:dirt",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:potato"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

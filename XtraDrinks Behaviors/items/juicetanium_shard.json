@@ -1,0 +1,21 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:juicetanium_shard"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "juicetanium_shard"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			},
+			"minecraft:display_name": {
+				"value": "Juicetanium Shard"
+			}
+		},
+		"events": {}
+	}
+}

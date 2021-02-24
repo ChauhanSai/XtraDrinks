@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "csxdrinks:drink_fruitpunch_juice1"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "csxdrinks:juicer"
+			},
+			{
+				"item": "minecraft:apple"
+			},
+			{
+				"item": "minecraft:apple"
+			},
+			{
+				"item": "csxdrinks:drink_glassjuice"
+			}
+		],
+		"result": [
+			{
+				"item": "csxdrinks:drink_fruitpunchjuice"
+			}
+		]
+	}
+}

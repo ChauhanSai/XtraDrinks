@@ -1,0 +1,33 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "csxdrinks:greenman_lure"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"SSS",
+			"IBI",
+			"III"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:wool"
+			},
+			"I": {
+				"item": "minecraft:glass"
+			},
+			"B": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"result": [
+			{
+				"item": "csxdrinks:greenman_lure"
+			}
+		]
+	}
+}

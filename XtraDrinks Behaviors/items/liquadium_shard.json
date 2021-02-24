@@ -1,0 +1,21 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:liquadium_shard"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "liquadium_shard"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			},
+			"minecraft:display_name": {
+				"value": "Liquadium Shard"
+			}
+		},
+		"events": {}
+	}
+}

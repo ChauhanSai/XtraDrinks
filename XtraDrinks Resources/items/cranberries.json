@@ -1,0 +1,14 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:cranberries",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": "cranberries",
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

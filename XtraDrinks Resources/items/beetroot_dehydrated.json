@@ -1,0 +1,14 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:beetroot_dehydrated",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": "beetroot_dehydrated",
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

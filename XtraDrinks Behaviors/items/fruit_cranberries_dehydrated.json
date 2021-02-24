@@ -1,0 +1,21 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:cranberries_dehydrated",
+			"is_experimental":false,
+			"aliases": [
+				"csxdrinks:dehydrated:7"
+			]
+		},
+		"components": {
+			"minecraft:use_duration": 32,
+			"minecraft:food": {
+				"nutrition": 7,
+				"saturation_modifier": "good"
+			}
+		},
+		"events": {}
+	}
+}

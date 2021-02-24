@@ -1,0 +1,269 @@
+{
+	"animation_controller": {
+		"BP/animation_controllers/bridge/commands_player.json": {
+			"ids": [
+				"controller.animation.bridge_player.execute_commands"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/bridge/custom_item_behavior.json": {
+			"ids": [
+				"controller.animation.bridge_custom_item_behavior"
+			],
+			"custom_commands": []
+		}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"csxdrinks:fizzium_effect",
+				"csxdrinks:juicetanium_effect",
+				"csxdrinks:liquadium_effect"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/greenman.json": {
+			"events": [
+				"minecraft:become_scared",
+				"minecraft:become_calm"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"csxdrinks:greenman"
+			],
+			"animation_references": [],
+			"families": [
+				"wandering_trader",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"recipe": {
+		"BP/recipes/dehydrate_beetroot.json": {
+			"tags": [
+				"dehydrator"
+			]
+		},
+		"BP/recipes/dehydrate_blueberries.json": {
+			"tags": [
+				"dehydrator"
+			]
+		},
+		"BP/recipes/dehydrate_carrot.json": {
+			"tags": [
+				"dehydrator"
+			]
+		},
+		"BP/recipes/dehydrate_potato.json": {
+			"tags": [
+				"dehydrator"
+			]
+		},
+		"BP/recipes/drink_apple_juice.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/drink_cinnspice_thick.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/drink_chocmilk_thick.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	},
+	"entity_model": {
+		"RP/ Resources/models/entity/dehydrator.geo.json": {
+			"old_identifiers": [],
+			"identifiers": [
+				"geometry.dehydrator"
+			]
+		},
+		"RP/ Resources/models/entity/hanging_coconut.geo.json": {
+			"old_identifiers": [],
+			"identifiers": [
+				"geometry.hanging_coconut"
+			]
+		},
+		"RP/ Resources/models/entity/hanging_orange.geo.json": {
+			"old_identifiers": [],
+			"identifiers": [
+				"geometry.hanging_orange"
+			]
+		},
+		"RP/ Resources/models/entity/hanging_pine.geo.json": {
+			"old_identifiers": [],
+			"identifiers": [
+				"geometry.hanging_pine"
+			]
+		},
+		"RP/ Resources/models/entity/ldehydrator.geo.json": {
+			"old_identifiers": [],
+			"identifiers": [
+				"geometry.ldehydrator"
+			]
+		}
+	},
+	"sound_definition": {
+		"RP/ Resources/sounds/sound_definitions.json": {
+			"ids": []
+		}
+	},
+	"client_entity": {
+		"RP/ Resources/entity/greenman.json": {
+			"identifiers": [
+				"csxdrinks:greenman"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"general",
+				"look_at_target",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"block": {
+		"BP/blocks/ldehydrator.json": {
+			"identifiers": [
+				"csxdrinks:ldehydrator"
+			],
+			"events": [
+				"csxdrinks:replace_ldehydrator"
+			],
+			"recipe_tags": [
+				"ldehydrator"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/hanging_coconut.json": {
+			"identifiers": [
+				"csxdrinks:hanging_coconut"
+			],
+			"events": [
+				"csxdrinks:coconut"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/hanging_pine.json": {
+			"identifiers": [
+				"csxdrinks:hanging_pine"
+			],
+			"events": [
+				"csxdrinks:pine"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/hanging_orange.json": {
+			"identifiers": [
+				"csxdrinks:hanging_orange"
+			],
+			"events": [
+				"csxdrinks:orange"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"function": {
+		"9e65ef67_cebc_4038_a4cb_d86fd6ff89f0": {},
+		"405800b8_ca39_4c04_ad18_2174a6f0f763": {},
+		"4ea9de99_b0c2_4e41_be14_eb0f9bb7b6d0": {},
+		"f1c5333c_6dd7_4332_b2f5_b3a4fedf9a7a": {},
+		"cc184594_d938_4011_9b3c_0a59eb3ba49e": {}
+	},
+	"item": {
+		"BP/items/fizzium.json": {
+			"identifiers": [
+				"csxdrinks:fizzium_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/liquadium.json": {
+			"identifiers": [
+				"csxdrinks:liquadium_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/juicetanium.json": {
+			"identifiers": [
+				"csxdrinks:juicetanium_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fizzium_shard.json": {
+			"identifiers": [
+				"csxdrinks:fizzium_shard"
+			],
+			"custom_commands": []
+		},
+		"BP/items/juicetanium_shard.json": {
+			"identifiers": [
+				"csxdrinks:juicetanium_shard"
+			],
+			"custom_commands": []
+		},
+		"BP/items/liquadium_shard.json": {
+			"identifiers": [
+				"csxdrinks:liquadium_shard"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fizzium_boots.json": {
+			"identifiers": [
+				"csxdrinks:fizzium_boots"
+			],
+			"custom_commands": []
+		}
+	},
+	"feature_rule": {
+		"BP/feature_rules/orange_feature_rule.json": {
+			"identifiers": [
+				"csxdrinks:orange_feature_rule"
+			]
+		}
+	},
+	"feature": {
+		"BP/features/orange_feature.json": {
+			"identifiers": [
+				"csxdrinks:orange_feature"
+			]
+		}
+	}
+}

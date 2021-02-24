@@ -1,0 +1,21 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:block_ldehydrator"
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "csxdrinks:ldehydrator"
+			},
+			"minecraft:icon": {
+				"texture": "block_ldehydrator"
+			},
+			"minecraft:display_name": {
+				"value": "(Creative Only) Block Placer Liquid Dehydrator"
+			}
+		},
+		"events": {}
+	}
+}

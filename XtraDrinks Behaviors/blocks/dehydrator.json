@@ -1,0 +1,65 @@
+//bridge-file-version: #7
+{
+	"format_version": {
+		"1.16.100": {}
+	},
+	"minecraft:block": {
+		"description": {
+			"identifier": "csxdrinks:dehydrator",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:map_color": "#525252",
+			"minecraft:friction": 0.6,
+			"minecraft:explosion_resistance": 12,
+			"minecraft:block_light_emission": 0.1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "dehydrator",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:geometry": "geometry.dehydrator",
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:crafting_table": {
+				"custom_description": "Dehydrator",
+				"grid_size": 3,
+				"crafting_tags": [
+					"dehydrator"
+				]
+			}
+		},
+		"events": {
+			"csxdrinks:replace_dehydrator": {
+				"set_block": {
+					"block_type": "minecraft:furnace"
+				}
+			}
+		}
+	}
+}

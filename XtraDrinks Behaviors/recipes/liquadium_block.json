@@ -1,0 +1,25 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "csxdrinks:liquadium_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "csxdrinks:liquadium_ingot"
+			}
+		},
+		"result": {
+			"item": "csxdrinks:liquadium_block"
+		}
+	}
+}

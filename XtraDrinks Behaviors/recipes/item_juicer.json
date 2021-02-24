@@ -1,0 +1,33 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "csxdrinks:juicer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"I I",
+			"IBI",
+			"ISI"
+		],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_nugget"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"S": {
+				"item": "minecraft:stone"
+			}
+		},
+		"result": [
+			{
+				"item": "csxdrinks:juicer"
+			}
+		]
+	}
+}
