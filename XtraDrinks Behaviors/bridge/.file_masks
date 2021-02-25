@@ -727,6 +727,16 @@
 						}
 					}
 				}
+			},
+			"f2cedf6f_0eca_4025_afcc_6bd52809c93d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -1025,6 +1035,12 @@
 		"data": {}
 	},
 	"BP/items/fizzium_boots.json": {
+		"data": {}
+	},
+	"BP/items/diamond_bucket.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
 		"data": {}
 	}
 }

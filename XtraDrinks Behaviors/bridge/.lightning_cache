@@ -250,6 +250,12 @@
 				"csxdrinks:fizzium_boots"
 			],
 			"custom_commands": []
+		},
+		"BP/items/diamond_bucket.json": {
+			"identifiers": [
+				"csxdrinks:diamond_bucket"
+			],
+			"custom_commands": []
 		}
 	},
 	"feature_rule": {

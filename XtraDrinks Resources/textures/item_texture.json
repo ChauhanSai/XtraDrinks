@@ -1,4 +1,4 @@
-//bridge-file-version: #27
+//bridge-file-version: #28
 {
 	"resource_pack_name": "csxdrinks",
 	"texture_name": "atlas.items",
@@ -287,6 +287,9 @@
 		},
 		"block_juicetanium": {
 			"textures": "textures/minerals/jucetanium_block"
+		},
+		"diamond_bucket": {
+			"textures": "textures/minerals/diamond_bucket"
 		}
 	}
 }
