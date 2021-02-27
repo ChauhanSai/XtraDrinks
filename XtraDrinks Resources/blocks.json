@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #18
 {
 	"format_version": [
 		1,
@@ -47,5 +47,17 @@
 	"csxdrinks:liquadium_block": {
 		"sound": "metal",
 		"textures": "liquadium_block"
+	},
+	"csxdrinks:solidified_fizzium": {
+		"textures": "solidified_fizzium",
+		"sound": "slime"
+	},
+	"csxdrinks:solidified_liquadium": {
+		"textures": "solidified_liquadium",
+		"sound": "slime"
+	},
+	"csxdrinks:solidified_juicetanium": {
+		"textures": "solidified_juicetanium",
+		"sound": "slime"
 	}
 }

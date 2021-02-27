@@ -88,6 +88,11 @@
 			"tags": [
 				"crafting_table"
 			]
+		},
+		"BP/recipes/solidified_fizzium.json": {
+			"tags": [
+				"ldehydrator"
+			]
 		}
 	},
 	"entity_model": {
@@ -199,6 +204,39 @@
 			"recipe_tags": [],
 			"custom_components": [],
 			"custom_commands": []
+		},
+		"BP/blocks/solidified_fizzium.json": {
+			"identifiers": [
+				"csxdrinks:solidified_liquadium"
+			],
+			"events": [
+				"csxdrinks:bucket"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/solidified_liquadium.json": {
+			"identifiers": [
+				"csxdrinks:solidified_liquadium"
+			],
+			"events": [
+				"csxdrinks:bucket"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/solidified_juicetanium.json": {
+			"identifiers": [
+				"csxdrinks:solidified_liquadium"
+			],
+			"events": [
+				"csxdrinks:bucket"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
 		}
 	},
 	"function": {
@@ -206,7 +244,14 @@
 		"405800b8_ca39_4c04_ad18_2174a6f0f763": {},
 		"4ea9de99_b0c2_4e41_be14_eb0f9bb7b6d0": {},
 		"f1c5333c_6dd7_4332_b2f5_b3a4fedf9a7a": {},
-		"cc184594_d938_4011_9b3c_0a59eb3ba49e": {}
+		"cc184594_d938_4011_9b3c_0a59eb3ba49e": {},
+		"f9900c04_565d_4a1e_bf5e_341efd4334f8": {},
+		"403f2946_0672_4253_ad2b_e4fd68bfd80d": {},
+		"cf0a4b3b_ed1e_49cb_a7b5_af28e545f460": {},
+		"4b31474a_5919_4088_8323_50f5ab1ec333": {},
+		"dab5f532_ed25_4287_b05f_b7ddf93761c4": {},
+		"de2a57ea_5529_4c01_bbf9_76aba12aab44": {},
+		"859c3a76_d823_4274_9886_3c2689caa89e": {}
 	},
 	"item": {
 		"BP/items/fizzium.json": {
@@ -253,7 +298,37 @@
 		},
 		"BP/items/diamond_bucket.json": {
 			"identifiers": [
-				"csxdrinks:diamond_bucket"
+				"csxdrinks:diamond_bucket_fizzium"
+			],
+			"custom_commands": []
+		},
+		"BP/items/diamond_bucket_fizzium.json": {
+			"identifiers": [
+				"csxdrinks:diamond_bucket_fizzium"
+			],
+			"custom_commands": []
+		},
+		"BP/items/diamond_bucket_juicetanium.json": {
+			"identifiers": [
+				"csxdrinks:diamond_bucket_fizzium"
+			],
+			"custom_commands": []
+		},
+		"BP/items/diamond_bucket_liquadium.json": {
+			"identifiers": [
+				"csxdrinks:diamond_bucket_fizzium"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fizzium_leggings.json": {
+			"identifiers": [
+				"csxdrinks:fizzium_leggings"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fizzium_helmet.json": {
+			"identifiers": [
+				"csxdrinks:fizzium_helmet"
 			],
 			"custom_commands": []
 		}

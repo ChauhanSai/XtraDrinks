@@ -1,4 +1,4 @@
-//bridge-file-version: #8
+//bridge-file-version: #9
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -27,7 +27,7 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "coconut_hanging",
-					"render_method": "opaque"
+					"render_method": "blend"
 				}
 			},
 			"minecraft:entity_collision": {
@@ -54,7 +54,7 @@
 					12
 				]
 			},
-			"minecraft:geometry": "geometry.hanging_coconut",
+			"minecraft:geometry": "geometry.cross",
 			"minecraft:block_light_absorption": 0
 		},
 		"events": {

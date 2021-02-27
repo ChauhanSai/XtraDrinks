@@ -1,4 +1,4 @@
-//bridge-file-version: #11
+//bridge-file-version: #13
 {
 	"resource_pack_name": "xtradrinks",
 	"texture_name": "atlas.terrain",
@@ -49,6 +49,15 @@
 		},
 		"liquadium_block": {
 			"textures": "textures/minerals/liquadium_block"
+		},
+		"solidified_fizzium": {
+			"textures": "textures/blocks/solidified_fizzium"
+		},
+		"solidified_juicetanium": {
+			"textures": "textures/blocks/solidified_juicetanium"
+		},
+		"solidified_liquadium": {
+			"textures": "textures/blocks/solidified_liquadium"
 		}
 	}
 }

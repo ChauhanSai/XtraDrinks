@@ -737,6 +737,66 @@
 						}
 					}
 				}
+			},
+			"1f3b051a_ab0d_4583_98bc_149f26e04774": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c42f03a1_62a9_43f6_b696_0b650d4d5459": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4ab2e957_898b_4c49_84ad_d5001f2f0ecc": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c4cc0d91_4b71_4c9d_89d4_8e47f1c9580f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4558db19_ca4c_4203_9159_6ec2d593272c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7ee16bc6_aaff_44e3_ad8e_89e34096f069": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -1041,6 +1101,45 @@
 		"data": {}
 	},
 	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"RP/items/apple_dehydrated.json": {
+		"data": {}
+	},
+	"BP/loot_tables/empty.json": {
+		"data": {}
+	},
+	"BP/items/diamond_bucket_fizzium.json": {
+		"data": {}
+	},
+	"BP/items/diamond_bucket_juicetanium.json": {
+		"data": {}
+	},
+	"BP/items/diamond_bucket_liquadium.json": {
+		"data": {}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/items/fizzium_leggings.json": {
+		"data": {}
+	},
+	"BP/items/fizzium_helmet.json": {
+		"data": {}
+	},
+	"BP/blocks/solidified_fizzium.json": {
+		"data": {}
+	},
+	"BP/blocks/solidified_liquadium.json": {
+		"data": {}
+	},
+	"BP/blocks/solidified_juicetanium.json": {
+		"data": {}
+	},
+	"BP/recipes/solidified_fizzium.json": {
 		"data": {}
 	}
 }

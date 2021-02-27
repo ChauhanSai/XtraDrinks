@@ -1,4 +1,4 @@
-//bridge-file-version: #12
+//bridge-file-version: #13
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -43,15 +43,6 @@
 				"value": "Fizzium Boots"
 			}
 		},
-		"events": {
-			"csxdrinks:equipboots": {
-				"run_command": {
-					"command": [
-						"replaceitem entity @p slot.armor.feet 0 csxdrinks:fizzium_boots",
-						"replaceitem entity @p slot.weapon.mainhand 0 air"
-					]
-				}
-			}
-		}
+		"events": {}
 	}
 }

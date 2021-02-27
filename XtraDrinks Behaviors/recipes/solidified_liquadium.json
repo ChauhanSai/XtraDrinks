@@ -1,0 +1,22 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "csxdrinks:solidified_liquadium"
+		},
+		"tags": [
+			"ldehydrator"
+		],
+		"ingredients": [
+			{
+				"item": "csxdrinks:diamond_bucket_liquadium"
+			}
+		],
+		"result": [
+			{
+				"item": "csxdrinks:liquadium_shard"
+			}
+		]
+	}
+}

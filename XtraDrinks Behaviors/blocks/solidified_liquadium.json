@@ -1,0 +1,44 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "csxdrinks:solidified_liquadium"
+		},
+		"components": {
+			"minecraft:map_color": "#7ab0ff",
+			"minecraft:destroy_time": 1,
+			"minecraft:friction": 0.5,
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:preventsjumping": true,
+			"minecraft:on_interact": {
+				"event": "csxdrinks:bucket",
+				"target": "player",
+				"condition": "query.get_equipped_item_name\r\nquery.is_using_item\r\nquery.is_item_equipped\r\nmolang.execute(query.is_using_item==diamond_bucket)"
+			}
+		},
+		"events": {
+			"csxdrinks:bucket": {
+				"sequence": [
+					{
+						"decrement_stack": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @p csxdrinks:diamond_bucket_liquadium"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"say Hello"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

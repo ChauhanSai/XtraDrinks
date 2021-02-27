@@ -1,4 +1,4 @@
-//bridge-file-version: #28
+//bridge-file-version: #31
 {
 	"resource_pack_name": "csxdrinks",
 	"texture_name": "atlas.items",
@@ -163,13 +163,13 @@
 			"textures": "textures/food/drink beet juice"
 		},
 		"block_hanging_orange": {
-			"textures": "textures/blocks/orange_hanging_flat"
+			"textures": "textures/blocks/orange_hanging"
 		},
 		"block_hanging_coconut": {
-			"textures": "textures/blocks/coconut_hanging_flat"
+			"textures": "textures/blocks/coconut_hanging"
 		},
 		"block_hanging_pine": {
-			"textures": "textures/blocks/pine_hanging_flat"
+			"textures": "textures/blocks/pine_hanging"
 		},
 		"block_dehydrator": {
 			"textures": "textures/blocks/dehydrator_side"
@@ -290,6 +290,15 @@
 		},
 		"diamond_bucket": {
 			"textures": "textures/minerals/diamond_bucket"
+		},
+		"diamond_bucket_fizzium": {
+			"textures": "textures/minerals/diamond_bucket_fizzium"
+		},
+		"diamond_bucket_liquadium": {
+			"textures": "textures/minerals/diamond_bucket_liquadium"
+		},
+		"diamond_bucket_juicetanium": {
+			"textures": "textures/minerals/diamond_bucket_juicetanium"
 		}
 	}
 }

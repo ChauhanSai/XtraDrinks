@@ -1,0 +1,22 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "csxdrinks:solidified_juicetanium"
+		},
+		"tags": [
+			"ldehydrator"
+		],
+		"ingredients": [
+			{
+				"item": "csxdrinks:diamond_bucket_juicetanium"
+			}
+		],
+		"result": [
+			{
+				"item": "csxdrinks:juicetanium_shard"
+			}
+		]
+	}
+}

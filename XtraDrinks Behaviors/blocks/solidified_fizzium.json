@@ -1,0 +1,44 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "csxdrinks:solidified_fizzium"
+		},
+		"components": {
+			"minecraft:map_color": "#f9b334",
+			"minecraft:destroy_time": 1,
+			"minecraft:friction": 0.5,
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:preventsjumping": true,
+			"minecraft:on_interact": {
+				"event": "csxdrinks:bucket",
+				"target": "player",
+				"condition": "query.is_item_equipped==diamond_bucket"
+			}
+		},
+		"events": {
+			"csxdrinks:bucket": {
+				"sequence": [
+					{
+						"decrement_stack": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @p csxdrinks:diamond_bucket_fizzium"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"say Hello"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}
