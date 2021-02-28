@@ -1,19 +1,25 @@
-//bridge-file-version: #2
+//bridge-file-version: #3
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "csxdrinks:blackberries",
-			"is_experimental":false,
-			"aliases": [
-				"csxdrinks:fruit:1"
-			]
+			"identifier": "csxdrinks:blackberries"
 		},
 		"components": {
-			"minecraft:use_duration": 32,
+			"minecraft:use_duration": 1.6,
 			"minecraft:food": {
 				"nutrition": 4,
 				"saturation_modifier": "low"
+			},
+			"minecraft:block_placer": {
+				"block": "csxdrinks:crop_blackberry"
+			},
+			"minecraft:icon": {
+				"texture": "blackberries"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:display_name": {
+				"value": "Blackberries"
 			}
 		},
 		"events": {}

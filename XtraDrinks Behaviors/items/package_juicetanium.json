@@ -1,0 +1,41 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:package_juicetanium"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "package_juicetanium"
+			},
+			"minecraft:display_name": {
+				"value": "Package"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "csxdrinks:open"
+				}
+			},
+			"minecraft:use_duration": 0,
+			"minecraft:use_animation": "bow"
+		},
+		"events": {
+			"csxdrinks:open": {
+				"sequence": [
+					{
+						"decrement_stack": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @p csxdrinks:diamond_bucket",
+								"give @p csxdrinks:juicetanium_shard"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

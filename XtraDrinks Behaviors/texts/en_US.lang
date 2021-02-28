@@ -1,5 +1,5 @@
-##bridge-file-version: #8
-pack.name=XtraDrinks
+##bridge-file-version: #10
+##pack.name=XtraDrinks
 pack.description=Venture into a new world with Xtra Drinks. 
 tile.csxdrinks:dehydrator.name=Dehydrator
 tile.csxdrinks:ldehydrator.name=Liquid Dehydrator
@@ -17,22 +17,15 @@ item.csxdrinks:apple_dehydrated.name=Dehydrated Apple
 item.csxdrinks:beetroot_dehydrated.name=Dehydrated Beetroot
 item.csxdrinks:blackberries.name=Blackberries
 item.csxdrinks:blackberries_dehydrated.name=Dehydrated Blackberries
-item.csxdrinks:blueberries.name=Blueberries
 item.csxdrinks:blueberries_dehydrated.name=Dehydrated Blueberries
 item.csxdrinks:carrot_dehydrated.name=Dehydrated Carrot
 item.csxdrinks:coconut_dehydrated.name=Dehydrated Coconut
-item.csxdrinks:cranberries.name=Cranberries
 item.csxdrinks:cranberries_dehydrated.name=Dehydrated Cranberries
-item.csxdrinks:grapes.name=Grapes
 item.csxdrinks:grapes_dehydrated.name=Dehydrated Grapes
-item.csxdrinks:lemon.name=Lemon
 item.csxdrinks:lemon_dehydrated.name=Dehydrated Lemon
-item.csxdrinks:lime.name=Lime
 item.csxdrinks:lime_dehydrated.name=Dehydrated Lime
 item.csxdrinks:orange_dehydrated.name=Dehydrated Orange
-item.csxdrinks:pineapple.name=Pineapple
 item.csxdrinks:pineapple_dehydrated.name=Dehydrated Pineapple
-item.csxdrinks:pomegranate.name=Pomegranate
 item.csxdrinks:pomegranate_dehydrated.name=Dehydrated Pomegranate
 item.csxdrinks:potato_dehydrated.name=Dehydrated Potato
 item.spawn_egg.entity.csxdrinks:greenman.name=Spawn Greenman
@@ -65,3 +58,6 @@ item.csxdrinks:drink_tropicalpunchjuice.name=Tropical Punch
 tile.csxdrinks:fizzium_block.name=Fizzium Block
 tile.csxdrinks:liquadium_block.name=Liquadium Block
 tile.csxdrinks:juicetanium_block.name=Juicetanium Block
+tile.csxdrinks:solidified_fizzium.name=Solidified Fizzium
+tile.csxdrinks:solidified_juicetanium.name=Solidified Juicetanium
+tile.csxdrinks:solidified_liquadium.name=Solidified Liquadium

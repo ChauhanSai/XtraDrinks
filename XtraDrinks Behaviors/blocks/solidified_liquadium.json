@@ -1,4 +1,4 @@
-//bridge-file-version: #23
+//bridge-file-version: #26
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -14,7 +14,7 @@
 			"minecraft:on_interact": {
 				"event": "csxdrinks:bucket",
 				"target": "player",
-				"condition": "query.get_equipped_item_name\r\nquery.is_using_item\r\nquery.is_item_equipped\r\nmolang.execute(query.is_using_item==diamond_bucket)"
+				"condition": "query.get_equipped_item_name == 'diamond_bucket'"
 			}
 		},
 		"events": {
@@ -33,7 +33,7 @@
 					{
 						"run_command": {
 							"command": [
-								"say Hello"
+								"setblock ~ ~ ~ air"
 							]
 						}
 					}

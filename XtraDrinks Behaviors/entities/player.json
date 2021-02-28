@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -52,7 +52,8 @@
 							"effect": "speed",
 							"amplifier": 2,
 							"duration": 15,
-							"visible": false
+							"visible": false,
+							"display_on_screen_animation": true
 						}
 					]
 				}
@@ -70,7 +71,8 @@
 							"effect": "strength",
 							"amplifier": 2,
 							"duration": 15,
-							"visible": false
+							"visible": false,
+							"display_on_screen_animation": true
 						},
 						{
 							"effect": "saturation",
@@ -88,7 +90,8 @@
 							"effect": "strength",
 							"amplifier": 2,
 							"duration": 15,
-							"visible": false
+							"visible": false,
+							"display_on_screen_animation": true
 						}
 					]
 				}

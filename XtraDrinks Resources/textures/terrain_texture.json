@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #0
 {
 	"resource_pack_name": "xtradrinks",
 	"texture_name": "atlas.terrain",
@@ -58,6 +58,48 @@
 		},
 		"solidified_liquadium": {
 			"textures": "textures/blocks/solidified_liquadium"
+		},
+		"stage_one": {
+			"textures": "textures/crops/stage 1"
+		},
+		"stage_two": {
+			"textures": "textures/crops/stage 2"
+		},
+		"stage_three": {
+			"textures": "textures/crops/stage 3"
+		},
+		"stage_four": {
+			"textures": "textures/crops/stage 4"
+		},
+		"stage_five": {
+			"textures": "textures/crops/stage 5"
+		},
+		"stage_six": {
+			"textures": "textures/crops/stage 6"
+		},
+		"blueberry_seven": {
+			"textures": "textures/crops/blueberry stages 7"
+		},
+		"cranberries_seven": {
+			"textures": "textures/crops/cranberries stages 7"
+		},
+		"grapes_seven": {
+			"textures": "textures/crops/grapes stages 7"
+		},
+		"lemon_seven": {
+			"textures": "textures/crops/lemon stages 7"
+		},
+		"lime_seven": {
+			"textures": "textures/crops/lime stages 7"
+		},
+		"pineapple_seven": {
+			"textures": "textures/crops/pineapple stages 7"
+		},
+		"pomegranate_seven": {
+			"textures": "textures/crops/pomegranate stages 7"
+		},
+		"blackberry_seven": {
+			"textures": "textures/crops/blackberry stages 7"
 		}
 	}
 }

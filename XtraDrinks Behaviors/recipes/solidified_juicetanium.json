@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
@@ -15,7 +15,7 @@
 		],
 		"result": [
 			{
-				"item": "csxdrinks:juicetanium_shard"
+				"item": "csxdrinks:package_juicetanium"
 			}
 		]
 	}

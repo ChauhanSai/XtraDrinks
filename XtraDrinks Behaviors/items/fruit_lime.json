@@ -1,20 +1,25 @@
-//bridge-file-version: #5
+//bridge-file-version: #0
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "csxdrinks:lime",
-			"is_experimental":false,
-			"aliases": [
-				"csxdrinks:tropical:1",
-				"csxdrinks:citris:2"
-			]
+			"identifier": "csxdrinks:lime"
 		},
 		"components": {
-			"minecraft:use_duration": 32,
+			"minecraft:use_duration": 1.6,
 			"minecraft:food": {
 				"nutrition": 4,
 				"saturation_modifier": "low"
+			},
+			"minecraft:block_placer": {
+				"block": "csxdrinks:crop_lime"
+			},
+			"minecraft:icon": {
+				"texture": "lime"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:display_name": {
+				"value": "Lime"
 			}
 		},
 		"events": {}

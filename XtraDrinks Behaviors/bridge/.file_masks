@@ -797,6 +797,156 @@
 						}
 					}
 				}
+			},
+			"380091fa_ac6d_4cb2_90f5_52107f0c8b6d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e4403d80_58d8_4831_ad17_a366c8f960a6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fad24e85_e190_4246_8e15_9c3459db545c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b907debf_fa2c_4b7a_aaf5_0d6609055a9d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a13f322d_8654_4b8b_9c64_b913d4cdb955": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"82366340_113c_4ed7_99f3_e5cc66eec8d7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5ed0ebc1_43d8_4a96_b2e0_12344d3dba14": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1d180656_e6a3_4c66_99b7_ec7a5ad824de": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"77bc137b_beab_4ff6_99ba_b125225a312c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3a341c9d_7bcb_4829_be13_7fe05d9c3580": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1159ef2f_cc83_4180_b711_3df94928e326": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0455310b_2d75_4227_9bce_02089fdc9bc8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b4d0b58c_2b6c_4659_8b0a_ad86d499ba46": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d693de20_6b9b_467a_8a01_d289d557707e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"80bc2553_652e_4a42_8e5a_edeeb2f8aec5": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -1140,6 +1290,75 @@
 		"data": {}
 	},
 	"BP/recipes/solidified_fizzium.json": {
+		"data": {}
+	},
+	"BP/blocks/blueberry.json": {
+		"data": {}
+	},
+	"BP/items/fruit_blueberries.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blueberry.json": {
+		"data": {}
+	},
+	"BP/items/fruit_grapes.json": {
+		"data": {}
+	},
+	"BP/blocks/pomegranate.json": {
+		"data": {}
+	},
+	"BP/blocks/pineapple.json": {
+		"data": {}
+	},
+	"BP/blocks/lime.json": {
+		"data": {}
+	},
+	"BP/blocks/lemon.json": {
+		"data": {}
+	},
+	"BP/blocks/grape.json": {
+		"data": {}
+	},
+	"BP/blocks/cranberry.json": {
+		"data": {}
+	},
+	"BP/items/fruit_pomegranate.json": {
+		"data": {}
+	},
+	"BP/items/fruit_pineapple.json": {
+		"data": {}
+	},
+	"BP/items/fruit_lime.json": {
+		"data": {}
+	},
+	"BP/items/fruit_lemon.json": {
+		"data": {}
+	},
+	"BP/items/fruit_cranberries.json": {
+		"data": {}
+	},
+	"BP/items/package_juicetanium.json": {
+		"data": {}
+	},
+	"BP/items/package_liquadium.json": {
+		"data": {}
+	},
+	"BP/items/package_fizzium.json": {
+		"data": {}
+	},
+	"BP/recipes/solidified_juicetanium.json": {
+		"data": {}
+	},
+	"BP/recipes/solidified_liquadium.json": {
+		"data": {}
+	},
+	"BP/blocks/blackberry.json": {
+		"data": {}
+	},
+	"BP/items/fruit_blackberries.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blackberry.json": {
 		"data": {}
 	}
 }

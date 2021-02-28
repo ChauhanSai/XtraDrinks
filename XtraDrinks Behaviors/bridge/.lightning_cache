@@ -93,6 +93,16 @@
 			"tags": [
 				"ldehydrator"
 			]
+		},
+		"BP/recipes/solidified_juicetanium.json": {
+			"tags": [
+				"ldehydrator"
+			]
+		},
+		"BP/recipes/solidified_liquadium.json": {
+			"tags": [
+				"ldehydrator"
+			]
 		}
 	},
 	"entity_model": {
@@ -207,7 +217,7 @@
 		},
 		"BP/blocks/solidified_fizzium.json": {
 			"identifiers": [
-				"csxdrinks:solidified_liquadium"
+				"csxdrinks:solidified_fizzium"
 			],
 			"events": [
 				"csxdrinks:bucket"
@@ -229,7 +239,7 @@
 		},
 		"BP/blocks/solidified_juicetanium.json": {
 			"identifiers": [
-				"csxdrinks:solidified_liquadium"
+				"csxdrinks:solidified_juicetanium"
 			],
 			"events": [
 				"csxdrinks:bucket"
@@ -237,6 +247,102 @@
 			"recipe_tags": [],
 			"custom_components": [],
 			"custom_commands": []
+		},
+		"BP/blocks/blueberry.json": {
+			"identifiers": [
+				"csxdrinks:blueberry"
+			],
+			"events": [
+				"csxdrinks:grow",
+				"csxdrinks:harvest"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/pomegranate.json": {
+			"identifiers": [
+				"csxdrinks:crop_pomegranate"
+			],
+			"events": [
+				"csxdrinks:crop_grow",
+				"csxdrinks:crop_harvest"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/pineapple.json": {
+			"identifiers": [
+				"csxdrinks:crop_pineapple"
+			],
+			"events": [
+				"csxdrinks:crop_grow",
+				"csxdrinks:crop_harvest"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/lime.json": {
+			"identifiers": [
+				"csxdrinks:crop_lime"
+			],
+			"events": [
+				"csxdrinks:crop_grow",
+				"csxdrinks:crop_harvest"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/lemon.json": {
+			"identifiers": [
+				"csxdrinks:crop_lemon"
+			],
+			"events": [
+				"csxdrinks:crop_grow",
+				"csxdrinks:crop_harvest"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/grape.json": {
+			"identifiers": [
+				"csxdrinks:crop_grape"
+			],
+			"events": [
+				"csxdrinks:crop_grow",
+				"csxdrinks:crop_harvest"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cranberry.json": {
+			"identifiers": [
+				"csxdrinks:crop_cranberry"
+			],
+			"events": [
+				"csxdrinks:crop_grow",
+				"csxdrinks:crop_harvest"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/blackberry.json": {
+			"identifiers": [
+				"csxdrinks:blueberry"
+			],
+			"events": [
+				"csxdrinks:grow",
+				"csxdrinks:harvest"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"function": {
@@ -251,7 +357,11 @@
 		"4b31474a_5919_4088_8323_50f5ab1ec333": {},
 		"dab5f532_ed25_4287_b05f_b7ddf93761c4": {},
 		"de2a57ea_5529_4c01_bbf9_76aba12aab44": {},
-		"859c3a76_d823_4274_9886_3c2689caa89e": {}
+		"859c3a76_d823_4274_9886_3c2689caa89e": {},
+		"3a341c9d_7bcb_4829_be13_7fe05d9c3580": {},
+		"0455310b_2d75_4227_9bce_02089fdc9bc8": {},
+		"b4d0b58c_2b6c_4659_8b0a_ad86d499ba46": {},
+		"d693de20_6b9b_467a_8a01_d289d557707e": {}
 	},
 	"item": {
 		"BP/items/fizzium.json": {
@@ -298,7 +408,7 @@
 		},
 		"BP/items/diamond_bucket.json": {
 			"identifiers": [
-				"csxdrinks:diamond_bucket_fizzium"
+				"csxdrinks:diamond_bucket"
 			],
 			"custom_commands": []
 		},
@@ -329,6 +439,72 @@
 		"BP/items/fizzium_helmet.json": {
 			"identifiers": [
 				"csxdrinks:fizzium_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fruit_blueberries.json": {
+			"identifiers": [
+				"csxdrinks:blueberries"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fruit_grapes.json": {
+			"identifiers": [
+				"csxdrinks:grapes"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fruit_pomegranate.json": {
+			"identifiers": [
+				"csxdrinks:pomegranate"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fruit_pineapple.json": {
+			"identifiers": [
+				"csxdrinks:pineapple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fruit_lime.json": {
+			"identifiers": [
+				"csxdrinks:lime"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fruit_lemon.json": {
+			"identifiers": [
+				"csxdrinks:lemon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fruit_cranberries.json": {
+			"identifiers": [
+				"csxdrinks:cranberries"
+			],
+			"custom_commands": []
+		},
+		"BP/items/package_juicetanium.json": {
+			"identifiers": [
+				"csxdrinks:package_liquadium"
+			],
+			"custom_commands": []
+		},
+		"BP/items/package_liquadium.json": {
+			"identifiers": [
+				"csxdrinks:package_liquadium"
+			],
+			"custom_commands": []
+		},
+		"BP/items/package_fizzium.json": {
+			"identifiers": [
+				"csxdrinks:package_liquadium"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fruit_blackberries.json": {
+			"identifiers": [
+				"csxdrinks:blackberries"
 			],
 			"custom_commands": []
 		}
