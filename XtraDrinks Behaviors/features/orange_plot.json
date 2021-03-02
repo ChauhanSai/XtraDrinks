@@ -1,0 +1,26 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "csxdrinks:orange_plot"
+		},
+		"structure_name": "csxdrinks:orange_plot",
+		"adjustment_radius": 4,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:air",
+					"minecraft:grass",
+					"minecraft:log",
+					"minecraft:log2",
+					"minecraft:leaves",
+					"minecraft:leaves2",
+					"minecraft:dirt"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "csxdrinks:orange_plot_feature_rule",
+			"places_feature": "csxdrinks:orange_plot"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "plains"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "forest"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "flower_forest"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "birch"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "dark_oak"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 1,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"extent": [
+					0,
+					50
+				],
+				"distribution": "uniform"
+			},
+			"y": {
+				"extent": [
+					50,
+					95
+				],
+				"distribution": "uniform"
+			},
+			"z": {
+				"extent": [
+					0,
+					50
+				],
+				"distribution": "uniform"
+			}
+		}
+	}
+}

@@ -1,5 +1,5 @@
-##bridge-file-version: #10
-##pack.name=XtraDrinks
+##bridge-file-version: #11
+pack.name=XtraDrinks
 pack.description=Venture into a new world with Xtra Drinks. 
 tile.csxdrinks:dehydrator.name=Dehydrator
 tile.csxdrinks:ldehydrator.name=Liquid Dehydrator

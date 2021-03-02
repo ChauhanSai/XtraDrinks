@@ -1,0 +1,21 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "csxdrinks:pine_plot"
+		},
+		"structure_name": "csxdrinks:pine_plot",
+		"adjustment_radius": 4,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:air",
+					"minecraft:grass"
+				]
+			}
+		}
+	}
+}

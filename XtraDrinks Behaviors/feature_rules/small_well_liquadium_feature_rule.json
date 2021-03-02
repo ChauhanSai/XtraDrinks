@@ -1,0 +1,47 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "csxdrinks:small_well_liquadium_feature_rule",
+			"places_feature": "csxdrinks:small_well_liquadium"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "animal"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 1,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"y": {
+				"extent": [
+					50,
+					95
+				],
+				"distribution": "uniform"
+			},
+			"z": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			}
+		}
+	}
+}

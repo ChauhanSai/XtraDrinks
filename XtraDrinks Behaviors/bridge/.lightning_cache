@@ -510,16 +510,96 @@
 		}
 	},
 	"feature_rule": {
-		"BP/feature_rules/orange_feature_rule.json": {
+		"BP/feature_rules/crop_plot_feature_rule.json": {
 			"identifiers": [
-				"csxdrinks:orange_feature_rule"
+				"csxdrinks:big_well_liquadium_feature_rule"
+			]
+		},
+		"BP/feature_rules/pine_plot_feature_rule.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium_feature_rule"
+			]
+		},
+		"BP/feature_rules/orange_plot_feature_rule.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium_feature_rule"
+			]
+		},
+		"BP/feature_rules/coconut_plot_feature_rule.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium_feature_rule"
+			]
+		},
+		"BP/feature_rules/big_well_fizzium_feature_rule.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium_feature_rule"
+			]
+		},
+		"BP/feature_rules/big_well_liquadium_feature_rule.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium_feature_rule"
+			]
+		},
+		"BP/feature_rules/small_well_liquadium_feature_rule.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium_feature_rule"
+			]
+		},
+		"BP/feature_rules/small_well_fizzium_feature_rule.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium_feature_rule"
+			]
+		},
+		"BP/feature_rules/fruit_station_feature_rule.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium_feature_rule"
 			]
 		}
 	},
 	"feature": {
-		"BP/features/orange_feature.json": {
+		"BP/features/crop_plot.json": {
 			"identifiers": [
-				"csxdrinks:orange_feature"
+				"csxdrinks:big_well_liquadium"
+			]
+		},
+		"BP/features/pine_plot.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium"
+			]
+		},
+		"BP/features/orange_plot.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium"
+			]
+		},
+		"BP/features/coconut_plot.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium"
+			]
+		},
+		"BP/features/big_well_liquadium.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium"
+			]
+		},
+		"BP/features/small_well_fizzium.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium"
+			]
+		},
+		"BP/features/big_well_fizzium.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium"
+			]
+		},
+		"BP/features/small_well_liquadium.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium"
+			]
+		},
+		"BP/features/fruit_station.json": {
+			"identifiers": [
+				"csxdrinks:big_well_liquadium"
 			]
 		}
 	}

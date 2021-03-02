@@ -1,10 +1,10 @@
-//bridge-file-version: #7
+//bridge-file-version: #6
 {
 	"format_version": "1.16.100",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "csxdrinks:orange_feature_rule",
-			"places_feature": "csxdrinks:orange_feature"
+			"identifier": "csxdrinks:coconut_plot_feature_rule",
+			"places_feature": "csxdrinks:coconut_plot"
 		},
 		"conditions": {
 			"placement_pass": "after_surface_pass",
@@ -13,45 +13,50 @@
 					{
 						"test": "has_biome_tag",
 						"operator": "==",
-						"value": "forest"
-					},
-					{
-						"test": "has_biome_tag",
-						"operator": "==",
-						"value": "flower_forest"
-					},
-					{
-						"test": "has_biome_tag",
-						"operator": "==",
 						"value": "plains"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "jungle"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "savanna"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "mesa"
 					}
 				]
 			}
 		},
 		"distribution": {
-			"iterations": 2,
+			"iterations": 1,
+			"coordinate_eval_order": "zyx",
 			"x": {
-				"distribution": "uniform",
 				"extent": [
 					0,
-					16
-				]
+					50
+				],
+				"distribution": "uniform"
 			},
 			"y": {
-				"distribution": "uniform",
 				"extent": [
-					0,
-					90
-				]
+					50,
+					95
+				],
+				"distribution": "uniform"
 			},
 			"z": {
-				"distribution": "uniform",
 				"extent": [
 					0,
-					16
-				]
-			},
-			"coordinate_eval_order": "zyx"
+					50
+				],
+				"distribution": "uniform"
+			}
 		}
 	}
 }

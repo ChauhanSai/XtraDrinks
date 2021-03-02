@@ -947,6 +947,16 @@
 						}
 					}
 				}
+			},
+			"d7f0cd3d_f4b9_4deb_951a_a6c89fffdd65": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -1181,12 +1191,6 @@
 	"RP/ Resources/items/blackberries.json": {
 		"data": {}
 	},
-	"BP/features/orange_feature.json": {
-		"data": {}
-	},
-	"BP/feature_rules/orange_feature_rule.json": {
-		"data": {}
-	},
 	"BP/items/block_hanging_orange.json": {
 		"data": {}
 	},
@@ -1359,6 +1363,60 @@
 		"data": {}
 	},
 	"BP/loot_tables/blackberry.json": {
+		"data": {}
+	},
+	"BP/features/crop_plot.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crop_plot_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/pine_plot.json": {
+		"data": {}
+	},
+	"BP/feature_rules/pine_plot_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/orange_plot.json": {
+		"data": {}
+	},
+	"BP/feature_rules/orange_plot_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/coconut_plot.json": {
+		"data": {}
+	},
+	"BP/feature_rules/coconut_plot_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/big_well_liquadium.json": {
+		"data": {}
+	},
+	"BP/feature_rules/big_well_fizzium_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/big_well_liquadium_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/small_well_fizzium.json": {
+		"data": {}
+	},
+	"BP/features/big_well_fizzium.json": {
+		"data": {}
+	},
+	"BP/features/small_well_liquadium.json": {
+		"data": {}
+	},
+	"BP/feature_rules/small_well_liquadium_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/small_well_fizzium_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/fruit_station_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/fruit_station.json": {
 		"data": {}
 	}
 }
