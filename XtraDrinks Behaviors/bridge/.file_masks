@@ -1418,5 +1418,11 @@
 	},
 	"BP/features/fruit_station.json": {
 		"data": {}
+	},
+	"BP/features/liquid_station.json": {
+		"data": {}
+	},
+	"BP/feature_rules/liquid_station_feature_rule.json": {
+		"data": {}
 	}
 }

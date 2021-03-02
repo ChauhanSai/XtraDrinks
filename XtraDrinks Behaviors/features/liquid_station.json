@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #12
 {
 	"format_version": "1.16.100",
 	"minecraft:structure_template_feature": {
@@ -6,14 +6,11 @@
 			"identifier": "csxdrinks:liquid_station"
 		},
 		"structure_name": "csxdrinks:liquid_station",
-		"adjustment_radius": 4,
+		"adjustment_radius": 1,
 		"facing_direction": "random",
 		"constraints": {
-			"grounded": {},
 			"block_intersection": {
 				"block_allowlist": [
-					"minecraft:air",
-					"minecraft:grass",
 					"minecraft:dirt"
 				]
 			}

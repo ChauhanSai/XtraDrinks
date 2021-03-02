@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #11
 {
 	"format_version": "1.16.100",
 	"minecraft:feature_rules": {
@@ -13,13 +13,13 @@
 					{
 						"test": "has_biome_tag",
 						"operator": "==",
-						"value": "animal"
+						"value": "plains"
 					}
 				]
 			}
 		},
 		"distribution": {
-			"iterations": 1,
+			"iterations": 0.5,
 			"coordinate_eval_order": "zyx",
 			"x": {
 				"extent": [

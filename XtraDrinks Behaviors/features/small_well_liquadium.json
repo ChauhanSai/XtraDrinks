@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #10
 {
 	"format_version": "1.16.100",
 	"minecraft:structure_template_feature": {
@@ -6,17 +6,17 @@
 			"identifier": "csxdrinks:small_well_liquadium"
 		},
 		"structure_name": "csxdrinks:small_well_liquadium",
-		"adjustment_radius": 4,
+		"adjustment_radius": 1,
 		"facing_direction": "random",
 		"constraints": {
-			"grounded": {},
 			"block_intersection": {
 				"block_allowlist": [
 					"minecraft:air",
-					"minecraft:grass",
-					"minecraft:dirt"
+					"minecraft:grass"
 				]
-			}
+			},
+			"unburied": {},
+			"grounded": {}
 		}
 	}
 }

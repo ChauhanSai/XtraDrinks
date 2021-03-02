@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #13
 {
 	"format_version": "1.16.100",
 	"minecraft:feature_rules": {
@@ -19,26 +19,26 @@
 			}
 		},
 		"distribution": {
-			"iterations": 1,
+			"iterations": 0.5,
 			"coordinate_eval_order": "zyx",
 			"x": {
 				"extent": [
-					0,
-					16
+					6,
+					10
 				],
 				"distribution": "uniform"
 			},
 			"y": {
 				"extent": [
-					50,
-					95
+					60,
+					65
 				],
 				"distribution": "uniform"
 			},
 			"z": {
 				"extent": [
-					0,
-					16
+					6,
+					10
 				],
 				"distribution": "uniform"
 			}
