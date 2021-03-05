@@ -3,7 +3,7 @@
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "csxdrinks:drink_liquadium_thick"
+			"identifier": "csxdrinks:drink_orange_juice"
 		},
 		"tags": [
 			"crafting_table"
@@ -13,18 +13,18 @@
 				"item": "csxdrinks:juicer"
 			},
 			{
-				"item": "csxdrinks:liquadium_ingot"
+				"item": "csxdrinks:orange"
 			},
 			{
 				"item": "csxdrinks:citric_acid"
 			},
 			{
-				"item": "csxdrinks:drink_glassthick"
+				"item": "csxdrinks:drink_glassjuice"
 			}
 		],
 		"result": [
 			{
-				"item": "csxdrinks:drink_liquadiumthick"
+				"item": "csxdrinks:drink_orangejuice"
 			}
 		]
 	}
