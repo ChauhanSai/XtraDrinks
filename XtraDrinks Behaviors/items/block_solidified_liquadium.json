@@ -1,0 +1,21 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "csxdrinks:block_solidified_liquadium"
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "csxdrinks:solidified_liquadium"
+			},
+			"minecraft:icon": {
+				"texture": "block_solidified_liquadium"
+			},
+			"minecraft:display_name": {
+				"value": "(Creative Only) Block Placer Solidified Liquadium"
+			}
+		},
+		"events": {}
+	}
+}

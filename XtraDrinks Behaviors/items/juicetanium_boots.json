@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #9
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -36,11 +36,11 @@
 					}
 				]
 			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.boots"
-			},
 			"minecraft:display_name": {
 				"value": "Juicetanium Boots"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.boots"
 			}
 		},
 		"events": {}

@@ -508,6 +508,18 @@
 				"csxdrinks:test"
 			],
 			"custom_commands": []
+		},
+		"BP/items/juicetanium_boots.json": {
+			"identifiers": [
+				"csxdrinks:juicetanium_boots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/block_solidified_fizzium.json": {
+			"identifiers": [
+				"csxdrinks:block_solidified_fizzium"
+			],
+			"custom_commands": []
 		}
 	},
 	"feature_rule": {
@@ -565,7 +577,7 @@
 	"feature": {
 		"BP/features/crop_plot.json": {
 			"identifiers": [
-				"csxdrinks:big_well_liquadium"
+				"csxdrinks:crop_plot"
 			]
 		},
 		"BP/features/pine_plot.json": {

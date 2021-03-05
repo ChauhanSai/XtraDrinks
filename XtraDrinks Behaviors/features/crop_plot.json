@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #6
 {
 	"format_version": "1.16.100",
 	"minecraft:structure_template_feature": {
@@ -11,8 +11,10 @@
 		"constraints": {
 			"block_intersection": {
 				"block_allowlist": [
-					"minecraft:air",
-					"minecraft:grass"
+					"minecraft:grass",
+					{
+						"name": "minecraft:dirt"
+					}
 				]
 			},
 			"unburied": {},

@@ -957,6 +957,26 @@
 						}
 					}
 				}
+			},
+			"75d4e758_5b67_448b_aa8a_c6c23f3eec18": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aa5d6c25_af56_4223_8864_77fb7da5833c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -1423,6 +1443,12 @@
 		"data": {}
 	},
 	"BP/feature_rules/liquid_station_feature_rule.json": {
+		"data": {}
+	},
+	"BP/items/juicetanium_boots.json": {
+		"data": {}
+	},
+	"BP/items/block_solidified_fizzium.json": {
 		"data": {}
 	}
 }
