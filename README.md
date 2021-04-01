@@ -6,8 +6,6 @@ This mod adds new materials into the game with a new mechanic, dehydration. Dehy
 
 ##### This is a port of a [1.12 Java mod](https://chauhansaimc.wixsite.com/chauhan-sai-mc/post/xtradrinks-minecraft-java-1-12-2-mod-download) to the Bedrock codebase through addons
 
-https://www.youtube.com/embed/Xp4a666CQjQ
-
 ## How to update XtraDrinks through GitHub Download:
 1. Download `.zip` through GitHub
 2. Extract `.zip`
