@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #8
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -58,12 +58,18 @@
 		},
 		"events": {
 			"csxdrinks:pine": {
-				"run_command": {
-					"command": [
-						"setblock ~~~ air",
-						"give @p csxdrinks:pine"
-					]
-				}
+				"sequence": [
+					{
+						"set_block": {
+							"block_type": "minecraft:air"
+						}
+					},
+					{
+						"spawn_loot": {
+							"table": "loot_tables/hanging_pine.json"
+						}
+					}
+				]
 			}
 		}
 	}

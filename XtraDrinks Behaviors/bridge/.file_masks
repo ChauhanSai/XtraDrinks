@@ -1450,5 +1450,14 @@
 	},
 	"BP/items/block_solidified_fizzium.json": {
 		"data": {}
+	},
+	"BP/loot_tables/hanging_orange.json": {
+		"data": {}
+	},
+	"BP/loot_tables/hanging_coconut.json": {
+		"data": {}
+	},
+	"BP/loot_tables/hanging_pine.json": {
+		"data": {}
 	}
 }
