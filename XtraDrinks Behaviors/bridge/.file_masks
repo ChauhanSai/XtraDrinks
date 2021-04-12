@@ -1459,5 +1459,8 @@
 	},
 	"BP/loot_tables/hanging_pine.json": {
 		"data": {}
+	},
+	"BP/recipes/diamond_bucket.json": {
+		"data": {}
 	}
 }

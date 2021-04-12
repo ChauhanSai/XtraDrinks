@@ -1,0 +1,26 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "csxdrinks:diamond_bucket"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"b b",
+			" b "
+		],
+		"key": {
+			"b": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"result": [
+			{
+				"item": "csxdrinks:diamond_bucket"
+			}
+		]
+	}
+}

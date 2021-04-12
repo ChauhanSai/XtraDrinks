@@ -103,6 +103,11 @@
 			"tags": [
 				"ldehydrator"
 			]
+		},
+		"BP/recipes/diamond_bucket.json": {
+			"tags": [
+				"crafting_table"
+			]
 		}
 	},
 	"entity_model": {
