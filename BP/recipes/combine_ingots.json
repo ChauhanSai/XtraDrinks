@@ -1,0 +1,26 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "csxdrinks:combine_ingots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#a"
+		],
+		"key": {
+			"#": {
+				"item": "csxdrinks:liquadium_ingot"
+			},
+			"a": {
+				"item": "csxdrinks:fizzium_ingot"
+			}
+		},
+		"result": {
+			"item": "csxdrinks:juicetanium_ingot"
+		}
+	}
+}

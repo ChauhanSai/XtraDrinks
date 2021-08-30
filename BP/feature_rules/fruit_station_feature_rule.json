@@ -1,0 +1,46 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "csxdrinks:fruit_station_feature_rule",
+			"places_feature": "csxdrinks:fruit_station"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "animal"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 0,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"extent": [
+					6,
+					10
+				],
+				"distribution": "uniform"
+			},
+			"y": {
+				"extent": [
+					60,
+					65
+				],
+				"distribution": "uniform"
+			},
+			"z": {
+				"extent": [
+					6,
+					10
+				],
+				"distribution": "uniform"
+			}
+		}
+	}
+}

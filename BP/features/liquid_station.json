@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "csxdrinks:liquid_station"
+		},
+		"structure_name": "csxdrinks:liquid_station",
+		"adjustment_radius": 1,
+		"facing_direction": "random",
+		"constraints": {
+			"block_intersection": {
+				"block_allowlist": [
+					{
+						"name": "minecraft:dirt"
+					}
+				]
+			}
+		}
+	}
+}
