@@ -50,6 +50,9 @@
 				"crafting_tags": [
 					"ldehydrator"
 				]
+			},
+			"minecraft:creative_category": {
+				"category": "items"
 			}
 		},
 		"events": {

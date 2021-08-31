@@ -24,7 +24,10 @@
 					}
 				]
 			},
-			"minecraft:loot": "loot_tables/empty.json"
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:creative_category": {
+				"category": "items"
+			}
 		},
 		"events": {
 			"csxdrinks:spawn_greenman": {

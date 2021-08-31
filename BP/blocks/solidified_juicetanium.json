@@ -15,6 +15,9 @@
 				"event": "csxdrinks:bucket",
 				"target": "player",
 				"condition": "query.get_equipped_item_name == 'diamond_bucket'"
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
 			}
 		},
 		"events": {

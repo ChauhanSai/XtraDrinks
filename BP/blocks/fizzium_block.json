@@ -12,8 +12,11 @@
 			"minecraft:explosion_resistance": 24,
 			"tag:minecraft:metal": {},
 			"tag:minecraft:diamond_pick_diggable": {},
-			"tag:minecraft:iron_pick_diggable": {}
+			"tag:minecraft:iron_pick_diggable": {},
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
 		},
-		"events": {}
+		"events": {
 	}
 }
